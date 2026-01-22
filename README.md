@@ -11,11 +11,19 @@ A Flutter fitness app powered by **Google Gemini API** that generates personaliz
 **Interactive Execution** | Three-stage system: Preview modal → 3-sec countdown → Section-by-section navigation. Color-coded sections (Warm Up 🟠, Main 🔴, Cool Down 🔵, Nutrition 🟢) with progress bar, "ACTIVE" badges, and Next/Previous controls.
 
 **Quick Start Templates** | Pre-built routines: Full Body HIIT (30min), Core Crusher (20min), Upper Body Strength (30min).
-![Uploading simulator_screenshot_33740CB0-20F6-40E3-94E2-C0194C7613BD.png…]()
 
 **Smooth Animations** | Fade/slide transitions, animated countdown display, expansion animations.
 
 **Color Palette** | Dark: #1A1A2E | Orange: #FF6B35 | Blue: #004E89 | Green: #1EBE73
+
+## 📱 Screens
+
+| Screen | Purpose |
+|--------|---------|
+| `home_screen.dart` | Dashboard with stats & feature access |
+| `generate_workout_screen.dart` | Custom workout creation & execution modal |
+| `start_workout.dart` | Quick-start template selection (bottom sheet) |
+| `workout_details_screen.dart` | Detailed workout info with hero image & exercises |
 
 ## 🔧 Tech Stack
 
@@ -24,20 +32,30 @@ A Flutter fitness app powered by **Google Gemini API** that generates personaliz
 - **Firebase Core**, AnimationController, Material Design
 - **Architecture**: StatefulWidget with TickerProviderStateMixin, async/await pattern, typed models
 
-## 📱 Screens
+## 📸 Screenshots
 
-| Screen | Purpose |
-|--------|---------|
-| `home_screen.dart` | Dashboard with stats & feature access |
-| `generate_workout_screen.dart` | Custom workout creation & execution modal |<img width="1290" height="2796" alt="simulator_screenshot_2388A7AE-F794-46F8-8586-FD275C64F985" src="https://github.com/user-attachments/assets/686a6404-ffe7-4f9a-8125-502aacab821d" />
-<img width="1290" height="2796" alt="simulator_screenshot_6A130747-F488-47EB-8FD8-81460ECB9CDA" src="https://github.com/user-attachments/assets/775c1979-33d4-47e6-bc63-3a50d8fc7cec" />
-<img width="1290" height="2796" alt="simulator_screenshot_62387A9D-4564-4224-8346-3D2DC405C2A3" src="https://github.com/user-attachments/assets/60947e32-cfa8-4d99-b91c-4fe65345d07a" />
-<img width="1290" height="2796" alt="simulator_screenshot_1762BD36-5910-4D46-9613-FEB07E6B4841" src="https://github.com/user-attachments/assets/6f4f850f-033f-4a04-beae-6838c57c231f" />
-
-
-
-| `start_workout.dart` | Quick-start template selection (bottom sheet) |
-| `workout_details_screen.dart` | Detailed workout info with hero image & exercises |
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img width="320" height="693" alt="Home Screen" src="https://github.com/user-attachments/assets/686a6404-ffe7-4f9a-8125-502aacab821d" />
+      <br><b>Home Screen</b>
+    </td>
+    <td align="center" width="50%">
+      <img width="320" height="693" alt="Generate Workout" src="https://github.com/user-attachments/assets/775c1979-33d4-47e6-bc63-3a50d8fc7cec" />
+      <br><b>Generate Workout</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img width="320" height="693" alt="Workout Preview" src="https://github.com/user-attachments/assets/60947e32-cfa8-4d99-b91c-4fe65345d07a" />
+      <br><b>Workout Preview</b>
+    </td>
+    <td align="center" width="50%">
+      <img width="320" height="693" alt="Active Workout" src="https://github.com/user-attachments/assets/6f4f850f-033f-4a04-beae-6838c57c231f" />
+      <br><b>Active Workout</b>
+    </td>
+  </tr>
+</table>
 
 ## 🚀 Quick Start
 
